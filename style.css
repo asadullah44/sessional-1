@@ -1,0 +1,282 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.main-container {
+  width: 1200px;
+  height: 1200px;
+  margin: 0 auto;
+  border: 5px solid #eeeeee;
+  padding: 15px;
+}
+.header-top {
+  padding: 0px;
+}
+.logo {
+  float: left;
+}
+
+.search-bar input {
+  border-style: none;
+  border-left: 3px solid #eeeeee;
+  position: relative;
+  left: 300px;
+  height: 40px;
+  width: 300px;
+}
+.search-bar a {
+  float: inline-end;
+  position: relative;
+  left: 268px;
+  top: 1px;
+  color: #eeeeee;
+}
+.sec-logo {
+  float: right;
+  padding: 0px;
+  position: relative;
+  bottom: 38px;
+}
+.menu {
+  float: left;
+  color: #eeeeee;
+  background-color: black;
+  width: 1200px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu ul li {
+  width: 80px;
+  margin: 0px;
+  padding: 10px;
+}
+.menu ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.social ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  float: left;
+  background: red;
+}
+.sub-menu-1,
+.sub-menu-2,
+.sub-menu-3,
+.sub-menu-4,
+.sub-menu-5,
+.sub-menu-6,
+.sub-menu-7 {
+  display: none;
+}
+
+.menu ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: black;
+  margin-top: 15px;
+  margin-bottom: -15px;
+}
+.menu ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 2px;
+}
+.menu ul li:hover .sub-menu-2 {
+  display: block;
+  position: absolute;
+  background: black;
+  margin-top: 15px;
+  margin-bottom: -15px;
+}
+.menu ul li:hover .sub-menu-2 ul {
+  display: block;
+  margin: 0px;
+}
+.menu ul li:hover .sub-menu-3 {
+  display: block;
+  position: absolute;
+  background: black;
+  margin-top: 15px;
+  margin-bottom: -15px;
+}
+.menu ul li:hover .sub-menu-3 ul {
+  display: block;
+  margin: 0px;
+}
+.menu ul li:hover .sub-menu-4 {
+  display: block;
+  position: absolute;
+  background: black;
+  margin-top: 15px;
+  margin-bottom: -15px;
+}
+.menu ul li:hover .sub-menu-4 ul {
+  display: block;
+  margin: 0px;
+}
+.menu ul li:hover .sub-menu-5 {
+  display: block;
+  position: absolute;
+  background: black;
+  margin-top: 15px;
+  margin-bottom: -15px;
+}
+.menu ul li:hover .sub-menu-5 ul {
+  display: block;
+  margin: 0px;
+}
+.menu ul li:hover .sub-menu-6 {
+  display: block;
+  position: absolute;
+  background: black;
+  margin-top: 15px;
+  margin-bottom: -15px;
+}
+.menu ul li:hover .sub-menu-6 ul {
+  display: block;
+  margin: 0px;
+}
+.menu ul li:hover .sub-menu-7 {
+  display: block;
+  position: absolute;
+  background: black;
+  margin-top: 15px;
+  margin-bottom: -15px;
+}
+.menu ul li:hover .sub-menu-7 ul {
+  display: block;
+  margin: 0px;
+}
+.banner {
+  float: right;
+}
+.banner p {
+  padding: 20px;
+  font-weight: bold;
+  font-size: 30px;
+  color: #ffffff;
+  position: relative;
+  bottom: 183px;
+}
+.banner button {
+  float: right;
+  position: relative;
+  bottom: 605px;
+  right: 727px;
+  text-transform: uppercase;
+  background-color: red;
+  border: 5px solid red;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 22px;
+  color: #eeeeee;
+}
+.left-content h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 2px solid red;
+}
+.left-content h2 {
+  font-size: medium;
+  font-weight: bold;
+  color: red;
+  text-transform: uppercase;
+}
+.left-content p {
+  font-weight: bold;
+}
+.left-content a {
+  text-decoration: none;
+  color: black;
+}
+.left-content a:hover {
+  color: red;
+}
+.container {
+  border-bottom: 2px solid gray;
+}
+
+.cont-1 h2 {
+  font-size: medium;
+  float: right;
+  position: relative;
+  left: 660px;
+  padding-top: 25px;
+  padding-bottom: 2px;
+  border-bottom: 5px solid red;
+}
+.cont-1 img {
+  width: 286px;
+  height: 200px;
+  position: relative;
+  left: 898px;
+}
+.cont-1 p {
+  font-weight: bold;
+  position: relative;
+  left: 898px;
+  padding-top: -5px;
+}
+.cont-2 h3 {
+  font-size: medium;
+  position: relative;
+  left: 430px;
+  bottom: 353px;
+  padding-top: 25px;
+  padding-bottom: 2px;
+}
+.cont-2 img {
+  width: 286px;
+  height: 200px;
+  position: relative;
+  left: 430px;
+  bottom: 353px;
+  padding-right: 100px;
+  border-right: 2px solid gray;
+}
+.prag {
+  font-weight: bold;
+  position: relative;
+  left: 430px;
+  bottom: 353px;
+}
+
+.cont-left h3 {
+  font-size: medium;
+  float: left;
+  position: relative;
+  bottom: 701px;
+
+  border-bottom: 5px solid red;
+}
+.cont-left img {
+  width: 286px;
+  height: 200px;
+  float: left;
+  position: relative;
+  bottom: 644px;
+  right: 128px;
+  padding-right: 30px;
+  border-right: 2px solid gray;
+}
+.cont-left p {
+  font-weight: bold;
+  position: relative;
+  float: left;
+  bottom: 441px;
+  right: 412px;
+}
+footer img {
+  border-top: 2px solid red;
+  position: relative;
+  bottom: 225px;
+  left: 88px;
+}
